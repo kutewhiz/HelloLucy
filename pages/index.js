@@ -10,7 +10,7 @@ function HomePage() {
       }}
     >
       <h1 style={{ fontFamily: 'fantasy', color: '#000000' }}>
-        snowfox's website
+        snowfox's website!!
       </h1>
       <h2
         style={{
@@ -19,7 +19,7 @@ function HomePage() {
           marginBottom: '10rem'
         }}
       >
-        click the buttons below
+        Hey there! Click the buttons below!
       </h2>
       <button
         style={{
@@ -47,12 +47,24 @@ function HomePage() {
           if (name) {
             alert('Nice to meet you, ' + name + '!');
           } else {
-            alert('Nice to meet you, stranger');
+            alert('Nice to meet you, someone who doesn't say their name!);
           }
         }}
       >
         {"What's your name?"}
       </button>
+      <button
+      style+{{ 
+        fontFamily: 'monospace',
+        padding:'1rem',
+        fontSize:'2rem',
+        background;'black',
+        color:'white',
+        marginTop:'2rem'
+          }
+        }}
+      >
+      </button>  
     </div>
   );
 }
