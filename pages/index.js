@@ -47,7 +47,7 @@ function HomePage() {
           if (name) {
             alert('Nice to meet you, ' + name + '!');
           } else {
-            alert('Nice to meet you, someone who doesn't say their name!);
+            alert('Nice to meet you, stranger);
           }
         }}
       >
@@ -57,14 +57,15 @@ function HomePage() {
       style+{{ 
         fontFamily: 'monospace',
         padding:'1rem',
-        fontSize:'2rem',
+        fontSize:'2 rem',
         background;'black',
         color:'white',
         marginTop:'2rem'
           }
         }}
       >
-      </button>  
+      </button> 
+      
     </div>
   );
 }
