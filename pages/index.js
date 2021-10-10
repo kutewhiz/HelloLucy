@@ -47,26 +47,14 @@ function HomePage() {
           if (name) {
             alert('Nice to meet you, ' + name + '!');
           } else {
-            alert('Nice to meet you, stranger);
-          }
-        }}
-      >
-        {"What's your name?"}
-      </button>
-      <button
-      style+{{ 
-        fontFamily: 'monospace',
-        padding:'1rem',
-        fontSize:'2 rem',
-        background;'black',
-        color:'white',
-        marginTop:'2rem'
-          }
-        }}
-      >
-      </button> 
-      
-    </div>
+            alert('Nice to meet you, stranger');
+          };
+        }
+      }
+    >
+      What's your name?
+    </button>
+  </div>
   );
 }
 
